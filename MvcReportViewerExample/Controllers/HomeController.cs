@@ -67,6 +67,11 @@ namespace MvcReportViewer.Example.Controllers
             return DownloadReport(ReportFormat.Pdf, false);
         }
 
+        public ActionResult DownloadXML()
+        {
+            return DownloadReport(ReportFormat.XML, true, "Report.xml");
+        }
+
         private ActionResult DownloadReport(ReportFormat format, bool isLocalReport, string filename = null)
         {
             if (isLocalReport)

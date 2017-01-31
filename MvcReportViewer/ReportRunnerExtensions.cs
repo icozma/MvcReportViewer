@@ -11,7 +11,7 @@ namespace MvcReportViewer
         /// Creates a FileContentResult object by using Report Viewer Web Control.
         /// </summary>
         /// <param name="controller">The Controller instance that this method extends.</param>
-        /// <param name="reportFormat">Report Viewer Web Control supported format (Excel, Word, PDF or Image)</param>
+        /// <param name="reportFormat">Report Viewer Web Control supported format (Excel, Word, PDF, Image or XML)</param>
         /// <param name="reportPath">The path to the report on the server.</param>
         /// <param name="mode">Report processing mode: remote or local.</param>
         /// <param name="localReportDataSources">Local report data sources</param>
@@ -33,7 +33,7 @@ namespace MvcReportViewer
         /// Creates a FileContentResult object by using Report Viewer Web Control.
         /// </summary>
         /// <param name="controller">The Controller instance that this method extends.</param>
-        /// <param name="reportFormat">Report Viewer Web Control supported format (Excel, Word, PDF or Image)</param>
+        /// <param name="reportFormat">Report Viewer Web Control supported format (Excel, Word, PDF, Image or XML)</param>
         /// <param name="reportPath">The path to the report on the server.</param>
         /// <param name="reportParameters">The report parameter properties for the report.</param>
         /// <param name="mode">Report processing mode: remote or local.</param>
@@ -64,7 +64,7 @@ namespace MvcReportViewer
         /// Creates a FileContentResult object by using Report Viewer Web Control.
         /// </summary>
         /// <param name="controller">The Controller instance that this method extends.</param>
-        /// <param name="reportFormat">Report Viewer Web Control supported format (Excel, Word, PDF or Image)</param>
+        /// <param name="reportFormat">Report Viewer Web Control supported format (Excel, Word, PDF, Image or XML)</param>
         /// <param name="reportPath">The path to the report on the server.</param>
         /// <param name="reportParameters">The report parameter properties for the report.</param>
         /// <param name="mode">Report processing mode: remote or local.</param>
@@ -95,7 +95,7 @@ namespace MvcReportViewer
         /// Creates a FileContentResult object by using Report Viewer Web Control.
         /// </summary>
         /// <param name="controller">The Controller instance that this method extends.</param>
-        /// <param name="reportFormat">Report Viewer Web Control supported format (Excel, Word, PDF or Image)</param>
+        /// <param name="reportFormat">Report Viewer Web Control supported format (Excel, Word, PDF, Image or XML)</param>
         /// <param name="reportPath">The path to the report on the server.</param>
         /// <param name="reportServerUrl">The URL for the report server.</param>
         /// <param name="username">The report server username.</param>
@@ -135,7 +135,7 @@ namespace MvcReportViewer
         /// Creates a FileContentResult object by using Report Viewer Web Control.
         /// </summary>
         /// <param name="controller">The Controller instance that this method extends.</param>
-        /// <param name="reportFormat">Report Viewer Web Control supported format (Excel, Word, PDF or Image)</param>
+        /// <param name="reportFormat">Report Viewer Web Control supported format (Excel, Word, PDF, Image or XML)</param>
         /// <param name="reportPath">The path to the report on the server.</param>
         /// <param name="reportServerUrl">The URL for the report server.</param>
         /// <param name="reportParameters">The report parameter properties for the report.</param>
