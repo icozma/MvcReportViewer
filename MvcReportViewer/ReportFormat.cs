@@ -12,6 +12,7 @@
         Atom,
         Rgdi,
         Rpl,
-        Html
+        Html,
+        XML
     }
 }
